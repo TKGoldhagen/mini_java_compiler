@@ -1,0 +1,6 @@
+1. Added miniJava.AbstractSyntaxTrees.NullReference, which extends Reference and encapsulates a Token, with a method to return its spelling
+2. Added a Declaration field to miniJava.AbstractSyntaxTrees.Identifier, which is initialized to null in the constructor
+3. Added NULL to the miniJava.AbstractSyntaxTrees.TypeKind enumeration
+4. Changed miniJava.AbstractSyntaxTrees.ClassDecl constructor to force it to be of type ClassType
+5. Added ClassDecl field to miniJava.AbstractSyntaxTrees.ThisRef
+6. Added public String parent_name field to miniJava.AbstractSyntaxTrees.MemberDecl
